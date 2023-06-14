@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2.2"
+pipreqs = "*"
+nltk = "==3.8.1"
+transformers = "==4.30.2"
+sentencepiece = "*"
+protobuf = "==3.20.*"
+torch = "*"
+bs4 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
